@@ -14,6 +14,12 @@ Takes one argument, a string which is the name for your checkpoint
 
 Show the feedback dialog
 
+### testflight.submitFeedback('')
+
+#### Arguments
+
+Takes one argument, a string you want recorded as feedback. Use this if you want to make a custom feedback form.
+
 ## Usage
 
       var testflight = require('ti.testflight');
@@ -25,6 +31,8 @@ Show the feedback dialog
       testflight.feedback();
    
 
+      testflight.sendFeedback('Text from your own custom form');
+   
 ## Authors
 
 Rick Blalock
